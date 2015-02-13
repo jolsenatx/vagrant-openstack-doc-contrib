@@ -56,19 +56,19 @@ The key commands are:
 * After assinging yourself a bug, creating a branch to work on it- where nnnnnn is the bug number
 
 	~~~
- git checkout -b fix-bug-nnnnnn
-~~~ 
+ 	git checkout -b fix-bug-nnnnnn
+	~~~ 
 * After editing the docs, you'll want to run the tests before you commit to see if you have any problems
 	~~~
- tox -v
-~~~
+ 	tox -v
+	~~~
 * If all the tests come back ok, you're ready to commit.
 	~~~
- git commit -a
-~~~
+ 	git commit -a
+	~~~
 Edit your commit message [following the guidelines](https://wiki.openstack.org/wiki/GitCommitMessages)
 * Push your commit up to gerrit
 	~~~
- git review -v
-~~~
+	 git review -v
+	~~~
 * It will output a url to your change where you can see it in gerrit
