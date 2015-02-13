@@ -69,7 +69,7 @@ The key commands are:
  	git commit -a
 ```
 
-Edit your commit message [following the guidelines](https://wiki.openstack.org/wiki/GitCommitMessages)
+	Edit your commit message [following the guidelines](https://wiki.openstack.org/wiki/GitCommitMessages)
 * Push your commit up to gerrit
 
 ```
