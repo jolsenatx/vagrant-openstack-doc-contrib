@@ -58,7 +58,9 @@ The key commands are:
  	git checkout -b fix-bug-nnnnnn
 ```
 
-* After editing the docs, you'll want to run the tests ```
+* After editing the docs, you'll want to run the tests
+
+```
  	tox -v
 ```
 
