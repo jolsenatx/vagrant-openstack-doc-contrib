@@ -1,0 +1,6 @@
+[user]
+	name = Tyler Britten
+	email = me@vmtyler.com
+
+[gitreview]
+    username=vmtyler
