@@ -25,5 +25,5 @@ Vagrant.configure(VAGRANTFILE_API_VERSION) do |config|
   config.vm.provision "file", source: "gitconfig.txt", destination: "/home/vagrant/.gitconfig"
   config.vm.provision "shell",
     inline: "apt-get update && apt-get -y install maven git git-review python-pip libxml2-dev libxslt1-dev python-dev gcc gettext zlib1g-dev && pip install git-review tox"
-  config.vm.provision "shell", inline: $script
+  config.vm.provision "shell", inline: $script, privileged: false
 end
