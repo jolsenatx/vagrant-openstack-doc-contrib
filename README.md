@@ -2,7 +2,7 @@ A  Vagrant setup to contribute to OpenStack documentation.
 ================
 This vagrant setup will allow you to contribute to OpenStack documentation in a simple way.
 
-[Here is a Link to a detailed blog post on this tool.](https://github.com/vmtyler/vagrant-openstack-doc-contrib)
+[Here is a link to a detailed blog post on this tool.](http://vmtyler.com/contributing-to-openstack-documentation/)
 
 Prerequsities-
 * [An OpenStack.org Account](http://www.openstack.org)
